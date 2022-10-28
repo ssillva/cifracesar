@@ -21,7 +21,7 @@ def decrypt(mensagem):
 
 def main():
     ALFABETO = 'abcdefghijklmnopqrstuvwyzàáãâéêóôõíúçABCDEFGHIJKLMNOPQRSTUVWYZÀÁÃÂÉÊÓÕÍÚÇ'
-    CHAVE = 13
+    CHAVE = 5
     original = 'a ligeira raposa marrom saltou sobre o cachorro cansado'
     print('  Original:', original)
     cifrada = encrypt(original, 1)
