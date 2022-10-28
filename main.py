@@ -1,3 +1,5 @@
+ALFABETO = 'abcdefghijklmnopqrstuvwyzàáãâéêóôõíúçABCDEFGHIJKLMNOPQRSTUVWYZÀÁÃÂÉÊÓÕÍÚÇ'
+CHAVE = 5
 def cifra(mensagem, dir):
     #variavel com mensagem cifrada
     m = ''
@@ -20,8 +22,7 @@ def decrypt(mensagem):
     return cifra(mensagem, -1)
 
 def main():
-    ALFABETO = 'abcdefghijklmnopqrstuvwyzàáãâéêóôõíúçABCDEFGHIJKLMNOPQRSTUVWYZÀÁÃÂÉÊÓÕÍÚÇ'
-    CHAVE = 5
+    
     original = 'a ligeira raposa marrom saltou sobre o cachorro cansado'
     print('  Original:', original)
     cifrada = encrypt(original, 1)
