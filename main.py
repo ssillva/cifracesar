@@ -25,9 +25,9 @@ def main():
     
     original = 'a ligeira raposa marrom saltou sobre o cachorro cansado'
     print('  Original:', original)
-    cifrada = encrypt(original, 1)
+    cifrada = encrypt(original)
     print('Encriptada:', cifrada)
-    plain = decrypt(cifrada, -1)
+    plain = decrypt(cifrada)
     print('Decriptada:', plain)
     
 if __name__ == '__main__':
